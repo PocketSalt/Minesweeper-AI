@@ -37,7 +37,7 @@ Therefore, to call this AI successful, it must be able to achieve over an 83.5% 
 
 
 
-##Results
+## Results
 On the first initial sets of testing, where 1000 runs of each mode was done, both Beginner and Intermediate had 63% win rate, and Expert had a 49% win rate. To diagnose why the AI was failing so consistently, a 'flag%' was added, to track how far the AI got into the run before failing. As seen in Figure 1, the AI had around 20-30% of their games being lost to the first few turns. Therefore, the game itself, not the AI needed to be fixed. After adjusting the game to always keep the tile 1,1 and its surroundings safe, the 1000 runs were done again.
 
 <img width="940" height="277" alt="Results of 1000 runs on Beginner, Intermediate, and Expert" src="https://github.com/user-attachments/assets/9dae9541-890d-4f9f-96fd-4f26fdd2cfe2" />
